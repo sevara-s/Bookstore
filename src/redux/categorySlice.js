@@ -2,10 +2,10 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const categorySlice = createSlice({
   name: "category",
-  initialState: { selectedCategory: "Barcha kitoblar" },
+  initialState: { selectedCategory: 1 },  
   reducers: {
     setCategory: (state, action) => {
-      state.selectedCategory = action.payload;
+      state.selectedCategory = action.payload;  
     },
   },
 });

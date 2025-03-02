@@ -29,11 +29,11 @@ const CategoryList = () => {
             <button
               key={cat.id}
               className={`!text-[20px] opacity-60 ${
-                selectedCategory.trim().toLowerCase() === cat.name.trim().toLowerCase()
+                selectedCategory === cat.id
                   ? "!text-[#c9ac8c]"
                   : "!text-[white]"
               }`}
-              onClick={() => dispatch(setCategory(cat.name))}
+              onClick={() => dispatch(setCategory(cat.id))}
             >
               {cat.name}
             </button>

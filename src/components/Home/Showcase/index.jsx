@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 import showcase from "../../../assets/imgs/showcase.png";
 import showcase2 from "../../../assets/imgs/showcase2.png";
-import search from "../../../assets/svgs/search.svg"
+import search from "../../../assets/svgs/search.svg";
 
 const { Search } = Input;
 
@@ -55,12 +55,25 @@ const Showcase = () => {
       </div>
 
       {/* search */}
-      <div className="search absolute bottom-0 left-1/2 transform -translate-x-1/2  p-2 w-3/4 rounded-[15px] z-10">
-      <h1 className="qidirish text-center font-[400] text-[31px] text-[#c9ac8c] p-[10px]">Qidirish</h1>
-         <div className="searching flex items-center gap-[15px] justify-center pb-[10px]">
-            <input type="search" className="outline-none bg-[#404040] rounded-[15px] p-[10px] w-[70%] placeholder:text-[black] placeholder:opacity-30" placeholder="Adiblar, kitoblar, audiolar, maqolalar... " />
-            <button className="flex items-center gap-[5px] bg-[#c9ac8c;] rounded-[15px] p-[10px]"><img src={search} className="fill-black" alt="" /> <p>Izlash</p></button>
-         </div>
+      <div className="search absolute bottom-0 left-1/2 transform -translate-x-1/2 p-2 w-[80%] md:w-3/4 rounded-[15px] z-10 bg-[#282828]">
+        <h1 className=" qidirish text-center font-[400] text-[31px] text-[#c9ac8c] p-[10px]">
+          Qidirish
+        </h1>
+
+        <div className="searching flex items-center gap-[10px] justify-center pb-[10px]">
+          {/* Search Input */}
+          <input
+            type="search"
+            className="outline-none bg-[#404040] rounded-[15px] p-[12px] w-[70%] text-white placeholder:text-white placeholder:opacity-50"
+            placeholder="Adiblar, kitoblar, audiolar, maqolalar..."
+          />
+
+          {/* Search Button */}
+          <button className="flex items-center gap-[5px] bg-[#c9ac8c] text-black rounded-[15px] p-[12px] font-semibold">
+            <img src={search} alt="Search" className="w-5 h-5" />
+            <p>Izlash</p>
+          </button>
+        </div>
       </div>
 
       {/* Pagination Style */}
