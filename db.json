@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Sevara",
+      "lastName": "Nematullayeva",
+      "phone": "+998971700985",
+      "email": "nematullayevasevara6@gamil.com",
+      "password": "sevara0608",
+      "likedBooks": [2, 5],
+      "readingList": [3, 4]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Temuriylar davri"
+    },
+    {
+      "id": 2,
+      "name": "Jadid adabiyoti"
+    },
+
+    {
+      "id": 3,
+      "name": "Sovet davri"
+    },
+    {
+      "id": 4,
+      "name": "Mustaqillik davri"
+    },
+    {
+      "id": 5,
+      "name": "Barcha kitoblar"
+    }
+  ],
+  "writers": [
+    {
+      "id": 1,
+      "fullName": "Abdulla Avloniy",
+      "birthYear": 1878,
+      "deathYear": 1934,
+      "image": "https://s3-alpha-sig.figma.com/img/2e2c/82f8/87cdb16ea33a29d418d5cfe3a47f3235?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XfdS7Thoa2Nqy8miNfxCtFqYlK4I~U1CeQz2NOLdIE1JjmnOIxzsuvKfHYVpoWPOmqz6amwBMnNI9n9XJzlggnfPpHoY4RfwpWwT2r5eNV7NKeoFXvx15Tbcki0b~e~1dwX34kyDh97oS8k~wXiM4yuhA~BX6X5199I-8os7I74f6w~Bo-rJ8Dztq3VUzVzT9UWel34K0EGN5aDOKuA1G0oAn7o5tqmaDz8fz87vYipia-ZcJZWF3EhlXzrXI~8bV6jal4bADyArluBkZIEncyZs5mjPlmjn23N0W1XIHbq3uJhFmWuRehSog4VJ4QnNnSnOnQaKNHxtyry8Yezc~w__",
+      "categoryId": 2,
+      "booksWritten": [],
+      "audioBooks": 13,
+      "books": 34
+    },
+    {
+      "id": 2,
+      "fullName": "Nusrat Rahmat",
+      "birthYear": 1878,
+      "deathYear": 1934,
+      "image": "https://s3-alpha-sig.figma.com/img/373b/6b29/e97bdb0078cbf796e7b373638be23210?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Wqma2DPulYZVgnDqZvX3muZHRwYmZ1Dr97nO9xOX4dLTEB0FumYxdh2aRZdzwaiskWc4nVbFE6h7vVU4kEJIzCJNfNgWMi6WYpM1PM8ZzMKgKS5~SN3zVxkEW16NCN1Rv1nRYNB7dW1ru-zsXbg5hjYyOHXFasseu8TK0UJv6qExuLdp~ABI4dLvtnlYUNw-BmsSpWBc63QoECIIVl3c0WXo2U9cSWMjvOScYmoALelyGGZeY652T9GzuPFLosFmbQ-9F2yzew4FvyoFeVpYahCrjXYN86wdESd3b8SRmSy5fUufifFvX0Lxh4XTWgzQ0LiqGHjiV6-TfLySOoo1uQ__",
+      "categoryId": 2,
+      "booksWritten": [],
+      "audioBooks": 13,
+      "books": 34
+    },
+    {
+      "id": 3,
+      "fullName": "Rahmonberdi Madazimov",
+      "birthYear": 1878,
+      "deathYear": 1934,
+      "image": "https://s3-alpha-sig.figma.com/img/336f/78b0/a13514591dfacd3ff06079b3502e2e04?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=EaaUzMtiZmg~Dzi3J4ZAY3wTsmlkR~CgYuYvI8deIN48MPC2QDk0xqX2lpsvWGp0xWt-TvluHM3YRwq1gmbvSY8qmWh9oVIrv0CUQH3E86C-yvTe-03IzPYfDtIysCtCVvErzWJ2UPxDRn9fpdIpVzDt0iP9r3udp3gmroJrYu4VNw9nZilS92EJjoPumGODj6MwTbEm5sKHtSPMjJlWOfCx9MdqdUBQz5buREBM64VL-p3Sey9WjYeiAh7QvGI~PA2rulNWToy3cECvitxTrgAmJerbb4aH06gQp9I235fxoig~dbyVMNUHF0ogDej6G45qIOiONlZhD9vNm557Gg__",
+      "categoryId": 2,
+      "booksWritten": [],
+      "audioBooks": 13,
+      "books": 34
+    },
+    {
+      "id": 4,
+      "fullName": "Hamza Hakimzoda Niyoziy",
+      "birthYear": 1878,
+      "deathYear": 1934,
+      "image": "https://s3-alpha-sig.figma.com/img/fd91/1ec4/be0ff1bc11e9c41e85229f93f518cdd0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SGv0dulmck67AE56PIYaIIh-C5XnyYbweFC1tnIaKjQBRnVHq5n8zJsiIBfxgV0MIC13Y1ufhSRriGf5I4-abHHhS4Xk4WxdSPHti3hirueeU63cxLn6EMH2vqeorepSppCv3X~lAuzu0A9RD3hWj--qTrKOLlqlicwbmUbrtWhpoJxn8wScKOU1V3vojdlI0mZL4NLbaskTkfZSVjCaRQCQLrxnYLWCB9uCRmFtpppi7J91jb2vTtY8gtw2cUB1Ueo28MQCN-zpOeMgTk281s9QkKWPJxrC9pqpENYA~iWQ-pg2Km9BAj7eMIKAcSH0a8mSuI37GLWVnAp1tRc9tQ__",
+      "categoryId": 2,
+      "booksWritten": [],
+      "audioBooks": 13,
+      "books": 34
+    },
+    {
+      "id": 5,
+      "fullName": "Abdulhamid Cho'lpon",
+      "birthYear": 1878,
+      "deathYear": 1934,
+      "image": "https://s3-alpha-sig.figma.com/img/d1f9/6c4c/46188f94415514ab51ba4f5428acc442?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JIydE7~b77ooTxelgHTCm-CdbZ3Wo3gwVDsSOkEvLgmKTg6K14ThLh1CP2p0bf4fsnF4UvXFURufS2jIM1npc2mBN254-ndihTaLk62NGEM1B6I6zSDeIXWL2eZwEt-VC6gFdkpbnyfkq3viCN4inLKRt9B3YSOGmwZeHK8YpXMnWZG7bcV9y8SyHRXkbXvhIdSkPuYS2zDSu46YMtBLo29Sw5ImlgVU2hT1Ek9NboBmMuAwGwZDEQMRmJsv9kAB6t~a4G~KWs~916m5nh8mAYiTFF7hX6BIKF6gVscd5kNGHJpH-28o41v3-1NA5xUqm7FwTN8PYWjdyJUUQPhYsg__",
+      "categoryId": 2,
+      "booksWritten": [],
+      "audioBooks": 13,
+      "books": 34
+    },
+    {
+      "id": 6,
+      "fullName": "Abdurauf Fitrat",
+      "birthYear": 1878,
+      "deathYear": 1934,
+      "image": "https://s3-alpha-sig.figma.com/img/2a10/eae9/76a7e613c51df91937e00c34f1bf586f?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Cc8bdq2UREfox42rMdarmnvrPGIHh~kfr5BDM3lKTAjZEeDj3dK0g7ueSrJP~KaXdmHJ7XycaoUzxhQvI4KMLRtfw4xHPHt88PAE8WFcHOEr0qSuuuJV0r-5wb0S0tGLFdC4ZUzaJDeKtA5u9HwIzToh3fmW2SuKPkgN5Y8OljQG9EXQwreJncJx6kDrX8rRsxHbHFiPakKiqGB~1tmbg-eO7AlYGQMv14g2BnukkOwBIOBtTao3BM9FKar~BvOXb5nFSR720H4qDB6yZGc2EsvUoydMSxfN5Prn979pnVBcUZlE1JjG4lidiB8MUUHjd7pevoiPUtORCdw41zTT~A__",
+      "categoryId": 2,
+      "booksWritten": [],
+      "audioBooks": 13,
+      "books": 34
+    },
+    {
+      "id": 7,
+      "fullName": "Abdulmajid Qodiriy",
+      "birthYear": 1878,
+      "deathYear": 1934,
+      "image": "https://s3-alpha-sig.figma.com/img/8ad5/db75/6bbcc7bcd5db7c276e52d67094e04b1c?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=tUL0WDfRQsrfV-q6P-HiLna2KinUw8nCq0g-dv1e6RiBJnAwWaojzlHUqE3XEinUhR82Rjka868ZCr85-bGOMNFwWHCWVE9lVcPeglhygxmsV8rJW~rukZ-K402bRBfIOD2CElxuRH2J9u-8ZB70RCudDAtflhqnqSJaTf6EumeFvswBV6nEII7X6stz9HpLmDfz5YOV9BlaAOE~m6oiy-BBsrKxdrd2RrIy59P0dN~gJvoGT4kvhiBI8LtHR20U85b4oC17W1sl~AladY1DE~DYcwhsm6ENn2bLAYF2gAHikbpg3sgcq-urMdycXWnEPWRLuUoGhH2JbRuGJAtOoA__",
+      "categoryId": 2,
+      "booksWritten": [],
+      "audioBooks": 13,
+      "books": 34
+    },
+    {
+      "id": 8,
+      "fullName": "Hoji Muin",
+      "birthYear": 1878,
+      "deathYear": 1934,
+      "image": "https://s3-alpha-sig.figma.com/img/af1e/e31f/72a2b911adebac6ba73386c4d307ae63?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=H4ULruGhA5OieXfaJTSLGkNf8GfV2-ZEybhlWAbUEJQGgo0a2FC0mh2lS9U1dfv-iANDtwMrxtSacBZXepE2o95z~1Vcxa0TNyxuJ5WUis5pGCkCknKgExXdNyJWs8pd5YDG9hsr3p4bfYQFe99wBXH1UTHyEDWcFMWBneFMjxAzzg0QramdSXonzuJC3wCyARJPr7FHxWi3XZTzqDmU0FugqDeJNZz~qZ0jkot5fuM0hsbBkPa1xVN0qhDXbyOepxjxbLUYoJJuIUrrmP7A2S49HAncNzPlj5HjBFvYQu4jabH6ehMvbujwkbA6bsj4pI9Gx6LfvrM6FX8-ZHeEPQ__",
+      "categoryId": 2,
+      "booksWritten": [],
+      "audioBooks": 13,
+      "books": 34
+    },
+    {
+      "id": 9,
+      "fullName": "Munavvarqori Abdurashidxonov",
+      "birthYear": 1878,
+      "deathYear": 1934,
+      "image": "https://s3-alpha-sig.figma.com/img/659c/c11c/f6eb3748bffecdd35439f83d5c53f84c?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=mfPF0AUBWprvaHwYroOOKut6huTpIPKFhyGnmni~1Fc2~b9lTFkx31UZGmWQoEv4viz1bpwhCRyn0XoI0Jec7RCXX7Qyk0Fyodw6sdyx4atQu-igv7hGMooc7UkME2W6KIvRN4pQDJfi8d-r-8PypcpDZFvEfarMD5XtiHJ1LToWwOMWTkTd3wuntExcC1E1gNUBKlLbJ0ur6Of2pkaG990LReal5KE3WDKDK6tEwRfnN9F0S7pzIlWAmyK3KpQHdLiluZsGsnfMGf2W1di11KlYUKwYgpa2bkkkpMPOPY7plgo6ekP8fOcEDhbG1wYym5jJUJ1T96K-Wx-SKvd9ng__",
+      "categoryId": 2,
+      "booksWritten": [],
+      "audioBooks": 13,
+      "books": 34
+    },
+    {
+      "id": 10,
+      "fullName": "Abdulla Qodiriy",
+      "birthYear": 1878,
+      "deathYear": 1934,
+      "image": "https://s3-alpha-sig.figma.com/img/ed97/f0c9/40f9f3fd4fa801f6472b89ea27fb9009?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=I5arWIvmVOakVii8bOIAFGLd2Pss73VlTj2GohurLThPRTrEfLzTng1VKTC5UoEhfaTrZfF-hLq8Hvzegt1ZI4xAy27nWid4~2veEKfJVCn0z0V56EoYFC0dx5BNw7X0OYdKbcDpz~C-InftBLHkFvKxCN6GxfYJoRP981xLrUNCepVoUjK89iwT8BGoJAECQCsfC32WRlWMNRxPDbilIQkNfyFv01iVfNaw8fKbMNmveslXhy~~gfG~iSQD3npfPF7P11c1z4Xf65PKZ7RWiwKramKyfuSikAM7KJKRIcBXWZxkQ1vpzi3VGghXRgX6SH6uLVXFgSEBkeebubnwKw__",
+      "categoryId": 2,
+      "booksWritten": [],
+      "audioBooks": 13,
+      "books": 34
+    },
+    {
+      "id": 11,
+      "fullName": "Mahmuxo’ja Behbudiy",
+      "birthYear": 1878,
+      "deathYear": 1934,
+      "image": "https://s3-alpha-sig.figma.com/img/ac57/5db5/e5edbeb280e58d0f57a7f467e2bb15a1?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=AzAnxuMnRVfOdYkGNOgv9VC1Q-p1xo6qNIhVT7FC2RvrYa5k73cpFnMswp3O4UzkbOxzN7I7iqyXR8Fey7YNUVWCZ~1hOU0iu7E2MvS8XSEpUDbmPH~N3WOj~ugYxS8uWEmqp7LAolHL7wIu51PfueqxH7APH6sV9nuPvpXrFA~WCWp1jMLeoc5OMnvFJ-pdisIb985SuVL~rMKAGZjmxwnLBZdNistrsrzdR6jattjiz8HXfsmXzI7N5cVb-PU8KqO9BFxqkIRY8VHtWTJ5cnW5B04JTjr~T8zV0tA9XnYQwB0w~BTboxSmspm5j64p337YCb4e7fxw-IrF57NQgQ__",
+      "categoryId": 2,
+      "booksWritten": [],
+      "audioBooks": 13,
+      "books": 34
+    },
+    {
+      "id": 12,
+      "name": "Alisher Navoiy",
+      "birthYear": 1441,
+      "deathYear": 1501,
+      "image": "https://images.app.goo.gl/jNYV6rU9zXZQETpT6",
+      "categoryId": 1,
+      "booksWritten": [1, 2, 3],
+      "audioBooks": 5
+    }
+
+  ] 
+}

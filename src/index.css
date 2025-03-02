@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 @import "tailwindcss";
 * {
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 a {
@@ -30,4 +32,11 @@ img {
     width: 1250px;
     margin: 0 auto;
   }
+}
+.logo,.qidirish,.mainC {
+  font-family: "Great Vibes", sans-serif;
+}
+.search {
+  box-shadow: 0 4px 77px 0 rgba(0, 0, 0, 0.25);
+  background: #191919;
 }
