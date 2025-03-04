@@ -9,6 +9,7 @@ const Home = () => {
        <Showcase/>
        <CategoryList/>
        <WriterList/>
+       
     </>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // SVG imports
 import book from "../../../../assets/svgs/book.svg";
@@ -6,6 +7,7 @@ import audio from "../../../../assets/svgs/audio.svg";
 
 const WriterCard = ({ writer }) => {
   return (
+    <Link to={`/writers/${writer.id}`}>
     <div className="writer1 w-[173px] h-[230px] flex flex-col items-center gap-2 p-2 bg-[#282828] rounded-[15px] shadow-lg">
       {/* Image Container */}
       <div className="w-[173px] h-[132px] flex items-center justify-center overflow-hidden bg-gray-800 rounded-md">
@@ -38,6 +40,7 @@ const WriterCard = ({ writer }) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 
