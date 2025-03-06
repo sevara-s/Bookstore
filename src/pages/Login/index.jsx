@@ -10,9 +10,10 @@ import login from "../../assets/svgs/login.svg";
 
 const loginSchema = z.object({
   email: z.string().email({ message: "Invalid email address" }),
-  password: z.string().min(6, { message: "Password must be at least 6 characters" }),
+  password: z
+    .string()
+    .min(6, { message: "Password must be at least 6 characters" }),
 });
-
 
 const Login = () => {
   const { mutate, isLoading } = useSignIn();
@@ -35,10 +36,13 @@ const Login = () => {
       onSuccess: () => {
         message.success("Sign-in successful");
         reset();
-        navigate("/");
+        setIsSubmitting(false);
+        navigate("/dashboard"); // ✅ Move navigation here
       },
       onError: (error) => {
-        message.error(error.response?.data?.message || "Sign-in failed");
+        const errorMessage =
+          error?.response?.data?.message || "Sign-in failed. Please try again.";
+        message.error(errorMessage);
         setIsSubmitting(false);
       },
     });

@@ -5,6 +5,8 @@ import WriterPage from "../pages/WriterPage";
 import Signup from "../pages/Signup/signup";
 import Login from "../pages/Login";
 import Verify from "../pages/verify";
+import Dashboard from "../pages/dashboard";
+import PrivateRoute from "./private";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +18,14 @@ const router = createBrowserRouter([
     ],
   },
   { path: "/signup", element: <Signup /> },
-  {path:"/login",element:<Login/>},
-  {path:"/verify",element:<Verify/>}
+  { path: "/login", element: <Login /> },
+  { path: "/verify", element: <Verify /> },
+
+  {
+    path: "/dashboard",
+    element: <PrivateRoute />,
+    children: [{ index: true, element: <Dashboard /> }],
+  },
 ]);
 
 export default function AppRoutes() {

@@ -31,7 +31,7 @@ const Verify = () => {
       {
         onSuccess: () => {
           message.success("Verification successful");
-          navigate("/");
+          navigate("/dashboard");
         },
         onError: (error) =>
           message.error(error.response?.data?.message || "Verification failed"),

@@ -7,7 +7,7 @@ export const useVerifyCode = () => {
   return useMutation({
     mutationFn: (code) =>
       request({
-        url: "/auth/verify",
+        url: "/api/auth/verify-user",
         method: "POST",
         body: { code },
       }),
